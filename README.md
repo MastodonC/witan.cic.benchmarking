@@ -2,6 +2,10 @@
 
 Benchmark SSDA903 data
 
+Uses data from gov.uk
+
+https://explore-education-statistics.service.gov.uk/find-statistics/children-looked-after-in-england-including-adoptions
+
 ## License
 
 Copyright © 2023 Mastodon C Ltd
