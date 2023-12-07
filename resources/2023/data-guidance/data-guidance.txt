@@ -1,0 +1,98 @@
+Children looked after in England including adoptions
+2023 Reporting year
+
+Description
+
+This document describes the data included in the ‘Children looked after in England including adoptions: 2021 to 2022’ National Statistics release’s underlying data files. This data is released under the terms of the  Open Government License (http://www.nationalarchives.gov.uk/doc/open-government-licence/) and is intended to meet at least three stars for  Open Data (https://www.gov.uk/government/policies/improving-the-transparency-and-accountability-of-government-and-its-services/supporting-pages/releasing-data-in-open-formats).
+
+The methodology document for this subject should be referenced alongside this release. It provides information on the data sources, their coverage and quality and how the data is produced.
+
+A guide (https://www.gov.uk/guidance/children-looked-after-return-guide-to-submitting-data) for the 2023 data collection provides further information on the data collected.
+
+Coverage
+
+This data is based upon information collected in the SSDA903 (CLA) data collection. It is a child level dataset collected from local authorities in England annually. The data includes information on:
+
+- children looked after on 31 March in each year, including unaccompanied asylum seeking children
+- children looked after at any time
+- children who started to be looked after
+- children who ceased to be looked after
+- children looked after who were adopted
+- care leavers now aged 17, 18, 19, 20 and 21 years old
+- care leavers now aged 22, 23, 24 and 25 years old (from 2023 onwards)
+- children who went missing or away from placement without authorisation
+- stability (of placements, schools and social workers)
+
+ The longitudinal nature of the collection means historical information can be amended each year, so we update all time series figures published in each release.  Unless otherwise stated, numbers and percentage exclude children looked after under an agreed  series of short term placements.
+
+Users of the data should consider the following:
+
+- for some local authorities, the figures may be impacted by large numbers of unaccompanied asylum-seeking children and their distinctive characteristics
+- from April 2019 the three local authorities ‘Dorset’, ‘Bournemouth’ and ‘Poole’ reorganised into  two local authorities ‘Bournemouth, Christchurch and Poole’ and ‘Dorset’. As part of this, a small number of children formerly looked after in the Christchurch area of Dorset were transferred to the new authority ‘Bournemouth, Christchurch and Poole’
+- from April 2021 Northamptonshire split into two local authorities, ‘North Northamptonshire’ and ‘West Northamptonshire’
+- For 2023, Barnsley were unable to provide data on outcomes for children looked after on 31 March, care leavers, missing and previous permanence arrangements for children starting to be looked after in time for publication so their data is missing. 2023 data will be provided and published in the 2024 statistical release.
+- Information on children who are missing or who are away from their placement without authorisation are published as Official Statistics. Users should refer to the methodology guide when using this data and should be cautious interpreting any figures across years or between local authorities due to differing practices. Hackney did not provide any missing or away without authorisation data in 2021
+- Information on the school and social worker stability of children are published as Official Statistics. Users should refer to the methodology guide when using this data.
+- Care leaver data is reported in two distinct groups; young people aged 17-21 years old and young people aged 22-25 years old. For care leavers aged 17-21 years old, the local authority has a duty to be in touch and support the young person. For care leavers aged 22-25 years old, the local authority is expected to provide support if the young person choses to contact them and requests support. Users should be cautious when drawing conclusions from the data for 22-25 year olds as the activity/accommodation data is only available for those young people who contacted the LA and requested and received support. For older care leavers, this cohort may be small.
+
+File formats and conventions
+
+Rounding and suppression
+
+National and regional figures have been rounded to the nearest 10.  Local authority figures are unrounded.
+
+Where any number is shown as zero, the original figure submitted was zero.
+
+The following symbols have been used in the release:
+
+- ‘c’ to protect confidentiality. Secondary suppression may have been applied
+- ‘z’ for not applicable
+- ‘x’ for not available
+- ‘k’ used for a value that would round to zero but is not zero, for example where a percentage is <0.5%
+
+For percentages:
+
+- where the numerator or denominator is small then the figure is replaced by ‘c’
+- they may not sum to 100% due to rounding
+- they are rounded to whole numbers
+
+Also in the release:
+
+- the average duration for adoptions (formerly table E2) are rounded to the nearest month
+- the average number of missing or away without authorisation incidents (formerly in table G1) have been rounded to one decimal place.
+
+Data files
+
+CLA on 31 March by characteristics - LA
+
+Filename: la_cla_on_31_march_by_characteristics.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2019 to 2023
+Content summary: Local authority level data for children looked after on 31 March by:
+
+- age group
+- category of need
+- distance between home and placement
+- distance between home and placement and locality of placement
+- ethnicity
+- gender
+- legal status
+- local authority of placement
+- locality of placement
+- placement type
+- placement provider
+- numbers of unaccompanied asylum-seeking children.
+
+For some local authorities, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. National and regional numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication. Figures exclude children looked after under a series of short-term placements.
